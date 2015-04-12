@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Phillip Lewis</title>
+
+</head>
+
+<body>
+
+  <!-- These are my notes taken from the Introduction to Programming Nanodegree, Stage 0: Getting started with HTML  -->
+
+<!-- Last Edit date 
+4/11/15
+-->
+
+<!-- The <head> element contains information that won't be displayed on the page. -->
+<head>
+  <!-- The <title> element normally sets the name of the browser tab (but in this example codepen's title overrides the title I set) -->
+  <title>Phillip's Notes</title>
+</head>
+
+<!-- The <h1> tag stands for "heading 1". Heading tags go all the way up to <h6>. Lower numbered headings indicate content that is more important. -->
+<h1>Important Concepts</h1>
+
+<h2>How the Web Works</h2>
+<p>The web is a series of discrete systems or components that work together. They include:   
+</p>
+
+<b>User + Browser</b>
+
+<p>A user on a computer or similar device, uses a browser, 
+  or similar application to make requests to servers. 
+  Browsers include <a href="http://www.google.com/chrome/">Chrome</a>, 
+  <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>, etc.
+</p>
+
+<b>Internet</b>
+
+<p>The internet is the communication platform that transmits requests from users to servers. 
+  When requesting a web page a browser uses HTTP 
+  (<a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Hypertext Transfer Protocol</a>).
+</p>
+
+<b>Servers</b>
+
+<p>Servers are specialised computers, optimized to deliver content and/or responses based on user requests.
+</p>
+
+<b>How it all works</b>
+
+<p>When the user, in their browser tries to open a webpage, 
+  a HTTP request is sent from the computer, over the internet, to the correct server that is storing that web page. 
+  The server find the correct HTML document for the requested web page and returns it back, over HTTP to the users computer, 
+  where it is rendered by the browser.
+</p>
+
+<h2>HTML</h2>
+<p>HTML stands for <a href="http://en.wikipedia.org/wiki/HTML"><em>Hypertext Markup Language.</em></a> 
+</p>
+
+<p>Most of the content on the web is made up from HTML. HTML documents contain:</p>
+
+<p><b>Text content:</b> The text you see (this text for example:)). <b>Remember all white space without markup turns into 1 single space!</b>
+</p>
+
+<p><b>Markup:</b> The formating or, how things are displayed.  
+</p>
+
+<p><b>References to other Docs:</b> Other HTML Docs, etc.  
+</p>
+
+<p><b>Links:</b> Nuff' said.  
+</p>
+
+<h3>Tags and Elements</h3>
+<p>Tags implement markup in HTML. <br>
+  An element is a component of a HTML Doc, usually having a opening and a closing tag.<br>
+  <!-- Found at http://stackoverflow.com/questions/6817262/how-to-display-html-tags-as-plain-text -->
+  A opening tag is like &lt;p&gt;.<br>
+  A closing tag is like &lt;/p&gt;.<br>
+  A note in the img tag; the alt attribute is not required to be populted, but can be useful for SEO, 
+  blind people, etc. This is an example of a VOID element - it has no closing tag.
+  <p><b>If the closing tag is omitted (but required), the change implemented by the opening tag is continued to the end of the
+  document/until another matching close is found. This can have unexpected effects.</b>
+  </p>
+</p>
+
+<h3>Inline vs Block Elements</h3>
+<p>HTML elements can be either <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente"><b>inline</b></a>
+  or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements"><b>block</b></a>.<br>
+  Block elements have a container, or an "invisible box". Inline are only in the line the tags are in. <br>
+  &lt;br&gt; is an inline tag, along with span. 
+   &lt;p&gt; is block, along with div.
+</p>
+
+<h2>Things to be aware of when coding</h2>
+
+<p><b>Computers are stupid:</b> They will try to interpret whatever is given to them, exactly as it is presented.
+  So a typo can have dramatic effects.
+</p>
+
+<p><b>Don't try to remember everything:</b> Concentrate on the concepts. A Google can always be used to find the syntax
+</p>
+
+<p><b>Learn the vocab:</b> So you know what people are talking about
+</p>
+
+</body>
+
+</html>
